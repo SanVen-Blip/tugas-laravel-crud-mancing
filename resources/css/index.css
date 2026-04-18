@@ -1,0 +1,72 @@
+/* public/css/index.css */
+
+.container-index {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.title-main {
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* Styling Tabel */
+.table-pancing {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table-pancing th {
+    background-color: #34495e;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
+
+.table-pancing td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+.table-pancing tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Tombol Aksi */
+.btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.btn-add { background-color: #27ae60; color: white; }
+.btn-edit { background-color: #f1c40f; color: #333; margin-right: 5px; }
+.btn-delete { background-color: #e74c3c; color: white; }
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #95a5a6;
+    font-style: italic;
+}
